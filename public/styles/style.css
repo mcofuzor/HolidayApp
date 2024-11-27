@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+  }
+  .container {
+    height: 648px;
+    width: 748px;
+    display: grid;
+    gap: 0px;
+    background-color: #000;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 30% 40% 10%;
+    border: #000 3px solid;
+  }
+  .first {
+    background-color: #ebe0df;
+    border-bottom: #000 2px!important;
+    display: grid;
+    grid-template-columns: 40% 60% ;
+    grid-template-rows: 100%;
+
+  }
+  .logo {
+    padding: 20px;
+  }
+  
+  .second {
+    background-color: #F0F1EC;
+    display: grid;
+    grid-template-columns:30% 70%;
+    grid-template-rows: 30% 25% 25% 10%;
+    font-family: sans-serif;
+    
+
+
+  }
+
+  .result {
+     padding-top: 5px;
+    background-color: #e7e9e0;
+    display: grid;
+    grid-template-columns:30% 70%;
+    grid-template-rows: 20% 10% 10% 10% 10% 10% 10% 10%;
+    font-family: sans-serif;
+    overflow-y: auto;
+    
+    
+
+
+  }
+  .third {
+    background-color: #ebe0df;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+
+
+
+  }
+  .dlabel {
+      text-align: right;
+      margin-right: 10px;
+      font-weight: bold;
+      
+  }
+  .content select{
+      padding: 5px;
+      width: 200px;
+
+  }
+  .dhead {
+      margin-bottom: 40px;
+
+
+  }
+  .error {
+    color: red;
+
+  }
+  .button {
+background-color: #04AA6D; /* Green */
+border: none;
+color: white;
+padding: 10px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 3px 2px;
+cursor: pointer;
+}
